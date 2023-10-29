@@ -55,4 +55,7 @@ Node.js v20.8.1
 
 $ node --env-file=.env --import tsx/esm ./scripts/hello-without-shebang.ts
 hello development
+
+$ ./scripts/hello-without-node-command.ts
+hello undefined
 ```
